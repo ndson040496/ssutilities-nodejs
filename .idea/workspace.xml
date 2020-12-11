@@ -19,22 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e720083-570e-44eb-9f95-0b8205ac6ed4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common-functions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common-functions/version-compare.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/errors/error-handler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/errors/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/errors/server-error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firebase-admin/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firebase-admin/loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/json-validator/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/json-validator/json-validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logger/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/logger/logger.js" afterDir="false" />
-    </list>
+    <list default="true" id="1e720083-570e-44eb-9f95-0b8205ac6ed4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +74,7 @@
       <workItem from="1605239441797" duration="1091000" />
       <workItem from="1605240552439" duration="117000" />
       <workItem from="1605242373920" duration="2935000" />
-      <workItem from="1605250952202" duration="7064000" />
+      <workItem from="1605250952202" duration="7254000" />
     </task>
     <servers />
   </component>
@@ -118,22 +103,22 @@
       <screen x="0" y="23" width="1680" height="969" />
     </state>
     <state x="568" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.969@0.23.1680.969" timestamp="1605243130570" />
-    <state width="1659" height="261" key="GridCell.Tab.0.bottom" timestamp="1605260009012">
+    <state width="1659" height="261" key="GridCell.Tab.0.bottom" timestamp="1605262774407">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state width="1659" height="261" key="GridCell.Tab.0.bottom/0.23.1680.969@0.23.1680.969" timestamp="1605260009012" />
-    <state width="1659" height="261" key="GridCell.Tab.0.center" timestamp="1605260009011">
+    <state width="1659" height="261" key="GridCell.Tab.0.bottom/0.23.1680.969@0.23.1680.969" timestamp="1605262774407" />
+    <state width="1659" height="261" key="GridCell.Tab.0.center" timestamp="1605262774406">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state width="1659" height="261" key="GridCell.Tab.0.center/0.23.1680.969@0.23.1680.969" timestamp="1605260009011" />
-    <state width="1659" height="261" key="GridCell.Tab.0.left" timestamp="1605260009010">
+    <state width="1659" height="261" key="GridCell.Tab.0.center/0.23.1680.969@0.23.1680.969" timestamp="1605262774406" />
+    <state width="1659" height="261" key="GridCell.Tab.0.left" timestamp="1605262774405">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state width="1659" height="261" key="GridCell.Tab.0.left/0.23.1680.969@0.23.1680.969" timestamp="1605260009010" />
-    <state width="1659" height="261" key="GridCell.Tab.0.right" timestamp="1605260009012">
+    <state width="1659" height="261" key="GridCell.Tab.0.left/0.23.1680.969@0.23.1680.969" timestamp="1605262774405" />
+    <state width="1659" height="261" key="GridCell.Tab.0.right" timestamp="1605262774407">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
-    <state width="1659" height="261" key="GridCell.Tab.0.right/0.23.1680.969@0.23.1680.969" timestamp="1605260009012" />
+    <state width="1659" height="261" key="GridCell.Tab.0.right/0.23.1680.969@0.23.1680.969" timestamp="1605262774407" />
     <state x="341" y="146" key="SettingsEditor" timestamp="1605239449583">
       <screen x="0" y="23" width="1680" height="969" />
     </state>
