@@ -1,5 +1,4 @@
 let admin = require('firebase-admin');
-let instance = new FirebaseAdmin();
 
 class FirebaseAdmin {
 
@@ -17,5 +16,7 @@ class FirebaseAdmin {
         this.storage = admin.storage();
     }
 }
+
+let instance = new FirebaseAdmin();
 
 module.exports = instance;
