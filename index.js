@@ -5,7 +5,7 @@ const common = require('./src/common-functions')
 const error = require('./src/errors')
 
 module.exports = {
-    firebaseAdmin: firebaseAdmin,
+    firebase: firebaseAdmin,
     jsonValidator: jsonValidator,
     logger: logger,
     common: common,
