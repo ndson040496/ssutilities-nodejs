@@ -1,5 +1,5 @@
-const firebaseAdminLoader = require('./loader');
+const FirebaseAdmin = require('./firebase-admin');
 
 module.exports = {
-    loadAdmin: firebaseAdminLoader
+    "firebase-admin": FirebaseAdmin
 };
