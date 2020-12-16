@@ -9,7 +9,10 @@ function handleError(err, req, res, next) {
         res.status(err.code).json({code: err.customCode, message: err.message});
         return;
     }
-    res.status(500).send('Something went wrong');
+    res.status(500).send({
+        code: 0,
+        message: 'Something went wrong'
+    });
 }
 
 module.exports = handleError;
