@@ -4,7 +4,11 @@ class FirebaseAdmin {
 
     auth
     database
+    firestore
     storage
+    messaging
+    remoteConfig
+    machineLearning
 
     initialize (key, projectName) {
         admin.initializeApp({
@@ -13,7 +17,11 @@ class FirebaseAdmin {
         });
         this.auth = admin.auth();
         this.database = admin.database();
+        this.firestore = admin.firestore();
         this.storage = admin.storage();
+        this.messaging = admin.messaging();
+        this.remoteConfig = admin.remoteConfig();
+        this.machineLearning = admin.machineLearning();
     }
 }
 

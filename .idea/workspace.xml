@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1e720083-570e-44eb-9f95-0b8205ac6ed4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/errors/error-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/errors/error-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase-admin/firebase-admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase-admin/firebase-admin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.7" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.14" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -80,6 +80,7 @@
       <workItem from="1605250952202" duration="7254000" />
       <workItem from="1607849327911" duration="3601000" />
       <workItem from="1608107964984" duration="39000" />
+      <workItem from="1608630811194" duration="165000" />
     </task>
     <servers />
   </component>
