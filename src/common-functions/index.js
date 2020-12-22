@@ -34,5 +34,6 @@ module.exports = {
     fileReader: {
         readPlainFile: readPlainFile,
         readJsonFile: readJsonFile
-    }
+    },
+    uidGetter: getUidFromRequest
 }
