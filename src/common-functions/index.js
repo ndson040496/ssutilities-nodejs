@@ -1,5 +1,6 @@
 const versionCompare = require('./version-compare');
 const fs = require('fs');
+const jwtDecode = require('jwt-decode');
 
 async function readPlainFile(file) {
     return new Promise((resolve, reject) => {
@@ -21,6 +22,11 @@ async function readJsonFile(file) {
             resolve(null);
         })
     });
+}
+
+function getUidFromRequest(req) {
+    const jwt = req.header('x-apigateway-api-userinfo');
+    return jwtDecode(jwt)['user_id'];
 }
 
 module.exports = {
