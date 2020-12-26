@@ -9,6 +9,7 @@ function handleError(err, req, res, next) {
         res.status(err.code).json({code: err.customCode, message: err.message});
         return;
     }
+    logger.log('ssutilities', logger.LogType.error, logger.LogLevel.allEnv, err.message)
     res.status(500).send({
         code: 0,
         message: 'Something went wrong'
