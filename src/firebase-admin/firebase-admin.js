@@ -9,6 +9,7 @@ class FirebaseAdmin {
     messaging
     remoteConfig
     machineLearning
+    rawAdmin
 
     initialize (key, projectName) {
         admin.initializeApp({
@@ -22,6 +23,7 @@ class FirebaseAdmin {
         this.messaging = admin.messaging();
         this.remoteConfig = admin.remoteConfig();
         this.machineLearning = admin.machineLearning();
+        this.rawAdmin = admin;
     }
 }
 
