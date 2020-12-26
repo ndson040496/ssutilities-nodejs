@@ -25,7 +25,8 @@ async function readJsonFile(file) {
 }
 
 function getUidFromRequest(req) {
-    const jwt = req.header('x-apigateway-api-userinfo');
+    let jwt = req.header('x-apigateway-api-userinfo');
+    jwt = jwt ?? req.header('X-Apigateway-Api-Userinfo');
     return jwtDecode(jwt)['user_id'];
 }
 
