@@ -25,11 +25,12 @@ async function readJsonFile(file) {
 }
 
 function getUidFromRequest(req) {
-    let jwt = req.header('x-apigateway-api-userinfo');
-    console.log(req.header('x-apigateway-api-userinfo'));
-    jwt = jwt ?? req.header('X-Apigateway-Api-Userinfo');
-    console.log(req.header('X-Apigateway-Api-Userinfo'));
-    return jwtDecode(jwt)['user_id'];
+    const jwt = req.header('x-apigateway-api-userinfo') ?? req.header('X-Apigateway-Api-Userinfo');
+    /*
+    Because GCP API Gateway strips out the jwt to only the payload, we need to stuff
+    the start and the end of the token to make it work with jwt-decode
+     */
+    return jwtDecode(`ey.${jwt}.ey`)['user_id'];
 }
 
 module.exports = {
